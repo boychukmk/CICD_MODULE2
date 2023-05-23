@@ -15,5 +15,6 @@ class Image(models.Model):
     created_date = models.DateField()
     age_limit = models.PositiveIntegerField()
 
+
     def __str__(self):
         return self.title
